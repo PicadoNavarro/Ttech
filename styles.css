@@ -1,0 +1,279 @@
+body{
+  font-family: "Ubuntu Condensed";
+}
+
+hr{
+  border: dotted #496DD1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+#title{
+  background-color: #496DD1;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: "Ubuntu Condensed";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Ubuntu Condensed";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Ubuntu Condensed";
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Roboto Mono";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu Condensed";
+}
+
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title*/
+
+.title-image{
+  width: 40%;
+}
+
+/* features section */
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #496DD1;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: #1B42EE;
+}
+
+/* posts section */
+
+#posts{
+  text-align: center;
+  background-color: #1B42EE;
+  color: #fff;
+}
+
+.posts-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.texto-pricing{
+  text-align: center;
+}
+
+/* copyright */
+
+.bottom-container{
+  text-align:center;
+  background-color: #496DD1;
+  padding: 50px 0 20px;
+}
+
+a{
+  color: #fff;
+  font-family:"Ubuntu Condensed";
+  font-size: 1.5rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+}
+
+.copyright{
+  color: #fff;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+/* catalogo html */
+.catalogo{
+  background-color: #fff;
+}
+
+.catalogo-row{
+  width: 50%;
+  margin: 25px auto 100px auto;
+  text-align: left;
+}
+
+.catalogo-1{
+  width: 55%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.catalogo-2{
+  width: 55%;
+  float: right;
+  margin-left: 30px;
+}
+
+.h3-catalogo{
+  color: #000;
+}
+
+.p-catalogo{
+  color: #000;
+}
+
+.p-catalogo1{
+  color: #000;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 50px;
+}
+
+/* botones */
+
+.btn-catalogo{
+  background: #496DD1;
+  background-image: -webkit-linear-gradient(top, #496DD1, #2980b9);
+  background-image: -moz-linear-gradient(top, #496DD1, #2980b9);
+  background-image: -ms-linear-gradient(top, #496DD1, #2980b9);
+  background-image: -o-linear-gradient(top, #496DD1, #2980b9);
+  background-image: linear-gradient(to bottom, #496DD1, #2980b9);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 15px;
+  background: #0c6ee6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-catalogo:hover{
+  background: #3e91f7;
+  text-decoration: none;
+}
+
+/* contactanos */
+.contact{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* ofertas */
+
+.ofertas{
+  background-color: #fff;
+}
+
+.ofertas-row{
+  width: 50%;
+  margin: 25px auto 100px auto;
+  text-align: left;
+}
+
+.ofertas-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+
+.h3-Ofertas{
+  color: #000;
+}
+
+.p-ofertas{
+  color: #000;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 50px;
+}
+
+/* botones */
+
+.btn-ofertas{
+  background: #496DD1;
+  background-image: -webkit-linear-gradient(top, #496DD1, #2980b9);
+  background-image: -moz-linear-gradient(top, #496DD1, #2980b9);
+  background-image: -ms-linear-gradient(top, #496DD1, #2980b9);
+  background-image: -o-linear-gradient(top, #496DD1, #2980b9);
+  background-image: linear-gradient(to bottom, #496DD1, #2980b9);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 15px;
+  background: #0c6ee6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-ofertas:hover{
+  background: #3e91f7;
+  text-decoration: none;
+}
